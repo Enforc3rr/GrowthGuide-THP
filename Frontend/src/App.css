@@ -1,0 +1,40 @@
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #4b6cb7 0%,
+    #182848 51%,
+    #4b6cb7 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  box-shadow: 0 0 20px #c6426e;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: underline;
+}
+
+input.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid black !important;
+}
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid black !important;
+}
+input.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid darkblue;
+}
